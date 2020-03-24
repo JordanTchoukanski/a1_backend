@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  a1_v2.3:
+    image: ${DOCKER_REGISTRY-}a1v2
+    build:
+      context: .
+      dockerfile: A1_v2.3/Dockerfile
